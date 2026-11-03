@@ -1,0 +1,36 @@
+# Keil / ARMCC build outputs
+**/Objects/
+**/Listings/
+**/bin/
+**/*.o
+**/*.obj
+**/*.d
+**/*.crf
+**/*.dep
+**/*.lnp
+**/*.map
+**/*.axf
+**/*.hex
+**/*.hexf
+**/*.lst
+**/*.htm
+**/*.asm
+**/*.sct
+!st17h66_ble_light/example/ble_peripheral/ble_light/scatter_load.sct
+**/*.log
+
+# IDE / local state
+**/*.uvguix.*
+**/*.uvoptx.*
+**/*.ssqiv
+**/*.bak_*
+
+# Local workspace, tooling and captures
+/tools/
+/tmp/
+/backup/
+/config.ini
+**/*.pcap
+**/*.pcapng
+.DS_Store
+Thumbs.db
